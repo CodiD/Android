@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
 
 
     }
-
+    // this function pulls a random tip
     fun getTip(): String {
         var randomTip = " "
         var tips = arrayOf(
