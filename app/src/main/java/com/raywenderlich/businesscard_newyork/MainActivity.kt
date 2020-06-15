@@ -6,7 +6,7 @@ import android.widget.Button
 import android.widget.TextView
 
 class MainActivity : AppCompatActivity() {
-
+    //cleaning the code
     lateinit var tipText: TextView
     lateinit var tipButton: Button
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
 
 
     }
-
+    // this function pulls a random tip
     fun getTip(): String {
         var randomTip = " "
         var tips = arrayOf(
