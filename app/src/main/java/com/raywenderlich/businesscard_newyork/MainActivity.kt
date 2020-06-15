@@ -6,7 +6,7 @@ import android.widget.Button
 import android.widget.TextView
 
 class MainActivity : AppCompatActivity() {
-
+    //cleaning the code
     lateinit var tipText: TextView
     lateinit var tipButton: Button
     override fun onCreate(savedInstanceState: Bundle?) {
